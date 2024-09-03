@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            background-color: black;
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            background-color: rgb(83, 0, 0);
+        }
+
+        a{
+            text-decoration: none;
+            color: darkred;
+            font-size: 1.2em;
+        }
+
+        a:active{
+            background-color: green;
+        }
+
+        a:hover{
+         color: yellow
+        }
+
+       a::after{
+        content: '[Link]';
+        padding: 2px;
+        color: darkgray;
+        font-size: 13px;} 
+
+        a::before{
+            content: '[Link]';
+        padding: 2px;
+        color: darkgray;
+        font-size: 13px;} 
+       
+
+    
+    </style>
+</head>
+<body>
+    <h1>Personalizandos Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@lilgregory13" target="_blank">Youtube</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100014283580482&locale=pt_BR" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/gregory_iuri/" target="_blank">Instagram</a></li>
+        <li><a href="https://x.com/GreGOD75" target="_blank">Twitter</a></li>
+    </ul>
+</body>
+</html>

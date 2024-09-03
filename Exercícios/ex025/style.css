@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ;
+    src: url('/fontes/idroid.otf'); 
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: grey;
+
+   
+    
+}
+
+
+header h1{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    margin: 0px 0px 6px 0px;
+    padding: 20px 0px 0px 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.705);
+    
+}
+
+header p{
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+    line-height: 1.3em;
+    
+    padding: 0px 30px 15px 30px;
+    margin: 0px;
+    max-width: 800px;
+    
+    margin: auto;
+    
+    }
+
+header{
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, lightgreen, green, darkgreen);
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+nav{
+    background-color: rgb(1, 63, 1);
+    padding: 5px 0px 5px 10px;
+    margin: 0px;
+    
+}
+
+nav ul>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0px;
+    margin-right: 80px;
+}
+
+nav ul>a:hover{
+    background-color: rgba(255, 255, 255, 0.753);
+    color: rgba(3, 100, 3, 0.438);
+    padding: 5px;
+    border-radius: 4px;
+    transition-duration: 0.6s;
+}
+
+main{
+    background-color: white;
+    min-width: 250px;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 6px black;
+
+}
+
+
+img{
+    width: 100%;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    margin: 20px 0px 20px 0px;
+}
+
+main h1 ,h2{
+    color: white;
+    background-image: linear-gradient(to right, darkgreen, lightgreen, white);
+    font-weight: normal;
+    font-size: 2em;
+    padding: 1.5px;
+    border-radius: 3px;}
+
+    footer {
+        background-color: darkgreen;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 1.3em;
+        margin: 30px 0px 0px 0px;
+
+    }

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+:root{
+        --cor0: #4FAF53;
+        --cor1: #708671;
+        --cor2: #6EDB73;
+        --cor3: #495C4A;
+        --cor4: #203321;
+        
+        --font-padrao: arial, verdana, sans-serif;
+        --font-destaque: "Bebas Neue", sans-serif; 
+        --font-especial: 'idroid', arial; 
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--font-padrao);
+    margin: 0px;
+}
+
+header{
+    background-color: #6EDB73;
+    margin-top: -30px;
+}
+
+header>h1{
+    font-family: var(--font-destaque);
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 40px;
+    
+}
+
+header>p{
+    font-family: var(--font-padrao);
+    color: white;
+    text-align: center;
+}
+
+
+
+ul>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    
+}
+
+ul>a:hover{
+    background-color: rgba(245, 245, 245, 0.466);
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 3px;
+
+}
+
+h1{
+    font-family: var(--font-especial);
+    color: var(--cor0);
+    font-size: 2em;
+}
+
+h2{
+    font-family: var(--font-especial);
+    color: var(--cor0);
+    background-image: linear-gradient(to right,#6EDB73, rgba(255, 255, 255, 0.418) );
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#bug{
+    text-align: center;
+}
+
+
+
+h3{
+    font-family: var(--font-padrao);
+    color: white;
+    background-color: darkgreen;
+    
+}
+
+aside{
+    background-color: rgba(144, 238, 144, 0.452);
+    padding: 0px 5px 5px 5px;
+    border-radius: 5px ;
+}
+
+footer>p{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 4px;
+    margin-bottom: 0px  ;
+}
+
+span{
+    display: inline-block;
+    margin-right: 100px;
+    padding-right: 88px;
+    list-style: none;
+}
+
+abbr{
+    text-decoration: none;
+    
+}
+
+img{
+    width: 100%;
+   
+}
+
+#bug{
+    
+    width: 50%;
+    
+    margin: auto;
+
+
+}

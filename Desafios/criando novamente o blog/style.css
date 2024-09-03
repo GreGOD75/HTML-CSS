@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal; 
+}
+
+:root{
+    --cor1:#26B200;
+    --cor2:#2F8817;
+    --cor3:#2D5E1F;
+    --cor4:#1F331A;
+    --cor5:#264822;
+
+    --font-padrao: arial, verdana, sans-serif;
+    --font-destaque: 'android', arial, sans-serif;
+    --font-especial: "Bebas Neue", sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: var(--cor1);  
+    margin: 0px;
+}
+
+header{
+    height: 150px;
+}
+header h1{
+    color: white;
+    font-family: var(--font-especial);
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    font-size: 3em;
+    
+
+}
+
+header p {
+    color: white;
+    font-family: var(--font-especial);
+    text-align: center;
+    font-size: 1.3em;
+    margin: 15px 1px 1px 1px;
+}
+nav{
+    background-color: var(--cor5);
+    padding: 8px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+    padding: 6px;
+    border-radius: 5px;
+    color: rgba(245, 245, 245, 0.527);
+    transition-duration: 0.4s;
+}
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main h1{
+    color: var(--cor3);
+    font-family: var(--font-destaque);
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 18px;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 5px;
+}
+
+main h2{
+    color: var(--cor3);
+    font-family: var(--font-destaque);
+    padding: 4px;
+    background-image: linear-gradient(to right, rgba(144, 238, 144, 0.726),rgba(255, 255, 255, 0.596));
+
+}
+
+img{
+    width: 100%
+}
+
+span{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+aside{
+    background-color: #47f0186c;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+aside>h3{
+    color: #26B200;
+    background-color: #1F331A;
+    padding: 7px;
+    font-family: var(--especial);
+    
+}
+
+#youtube{
+    text-align: center;
+    background-color: #1F331A;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer p{
+    background-color: #1F331A;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <Style>
+        body{
+            background-color: blueviolet;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+div>p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 280px;
+}
+
+        div{
+   color: red;
+    font-size: 2em;
+}
+h1#voltar{
+    color: green;
+}
+    </Style>
+</head>
+<body>
+    <h1>Brincando com hover</h1>
+    <p>Passe o mouse sobre o texto abaixo e veja oque acontece:</p>
+    <div> TEXTO
+        <p>Curioso <br> KKKKKKKKKKKKK</p>
+    </div>
+<p id="voltar"><a href="pseudo-classes.html" target="_self" rel="prev">CLIQUE AQUI PARA VOLTAR</a></p>
+</body>
+</html>

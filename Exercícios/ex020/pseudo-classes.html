@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <Style>
+
+div>p{
+    display: none;
+}
+
+div#principal:hover>p{
+    display: block;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+
+}
+
+div{
+display: inline-block;
+height: 200px;
+width: 200px;
+background-color: black;
+color: white;
+text-align: center;
+border-radius: 2%;
+}
+
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#principal:hover{
+    background-color: yellow;
+    
+}
+
+div#secundario:hover{
+    background-color: blue;
+}
+
+div#terciario:hover{
+    background-color: green;
+}
+
+p{
+    color: red;
+}
+</Style>
+</head>
+<body>
+    <div id="principal">01
+        <p>É oque louco</p>
+    </div>
+    <div id="secundario">02
+        <p>Trouxaooo</p>
+    </div>
+    <div id="terciario">03
+        <p>debiloide</p>
+    </div>
+    <h1>Outra Página:</h1>
+    <p><a href="hover.html" rel="next" target="_self">Clique aqui</a></p>
+</body>
+</html>
