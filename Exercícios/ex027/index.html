@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens</title>
+
+    <style>
+        div.qd{
+            height: 350px;
+            width: 350px;
+            border: 5px solid black;
+            display: inline-block;
+            margin: 0px 60px 0px 0px;
+        }
+
+        div#qd1{
+            background-color: skyblue;
+        }
+
+        div#qd2{
+            background-image: linear-gradient(to bottom, yellow, green);
+        }
+
+        div#qd3{
+            background-image: url('imagens/fundo-rustico.jpeg');
+            background-repeat: no-repeat;
+            background-size: 350px;
+            background-position: center center;
+        }
+
+        div#qd4{
+            background-image: url('imagens/fundo-agua.jpeg');
+            background-repeat: no-repeat;
+            background-size: 350px;
+        }
+
+        body{
+            height: 96vh;
+            background-image: url('imagens/fundo-rustico.jpeg');
+            background-repeat: no-repeat;
+            background-size: 30%;
+            background-position: center bottom;
+           
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Aprendendo a usar as imagens hehe</h1>
+    <hr>
+    <div id="qd1" class="qd">
+
+    </div>
+    <div id="qd2" class="qd">
+        
+    </div>
+    <div id="qd3" class="qd">
+        
+    </div>
+
+    <div class="qd" id="qd4">
+
+    </div>
+
+</body>
+</html>
