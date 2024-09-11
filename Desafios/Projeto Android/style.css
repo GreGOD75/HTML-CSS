@@ -171,3 +171,22 @@ main #bug{
     display: block;
     margin: auto;
 }
+
+#video{
+    background-color: darkgreen;
+    margin: 15px -20px;
+    padding: 20px;
+    min-height: 53vh;
+    
+    
+}
+
+iframe{
+    position: absolute;
+    left: 50%;
+
+    width: 90%;
+    height: 90%;
+
+    transform: translate(-50%, 0%);
+}
