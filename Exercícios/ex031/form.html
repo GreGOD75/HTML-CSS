@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <h2>Criando um formulário</h2>
+    <form action="cadastro.php" method="post" autocomplete="on">
+       
+            <fieldset>
+                <legend>Dados de Usuário</legend>
+                <p>
+                    <label for="iuser">Usuário: </label><input type="text" name="user" id="iuser" required minlength="5" maxlength="15" autocomplete="username">
+                </p>
+                <p>
+                    <label for="isen">Senha: </label> <input type="password" name="Sen" id="isen" required minlength="8" maxlength="20" autocomplete="current-password" placeholder="Minimo de 8digitos" >
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="nome" id="inome">
+                </p>
+                <p>
+                    <label for="imail">Email: </label required> 
+                    <input type="email" name="email" id="imail">
+                </p>
+                <p>
+                    <label for="itel">Tel:  </label required>
+                    <input type="tel" name="tel" id="itel">
+                </p>
+                <p>
+                    <label for="idata">Data de Nascimento</label>
+                    <input type="date" name="Data" id="idata">
+                </p>
+                <p>
+                    <label for="isex">Masculino</label>
+                    <input type="radio" name="Sex" id="isex">
+                    <label for="isex">Feminino</label>
+                    <input type="radio" name="Sex" id="isex">
+                    <label for="isex">Outros</label>
+                    <input type="radio" name="Sex" id="isex">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>esportes favoritos</legend>
+                <p>
+                    <input type="checkbox" name="basquete" id="ibasq"> 
+                    <label for="ibasq">basquete</label> <br>
+                    <input type="checkbox" name="Futebol" id="ifutebol">
+                    <label for="ifutebol">Futebol</label> <br>
+                    <input type="checkbox" name="tenis" id="itenis">
+                    <label for="itenis">Tenis</label> <br>
+                    <input type="checkbox" name="volei" id="ivolei">
+                    <label for="ivolei">Volei</label> <br>
+                    <input type="checkbox" name="hand" id="ihand">
+                    <label for="ihand">handebol</label>
+                   
+                </p>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Localidade e profissao</legend>
+                <label for="iestado">Localidade: </label>
+                <select name="estado" id="iestado">
+                <option value="Estado">Estado</option>
+                <option value="Bahia">Bahia</option>
+                <option value="SP">São Paulo</option>
+            </select>
+
+            <p>
+                <label for="iprofissao">Profissão:</label>
+                <input type="text" name="profissao" id="iprofissao" list="ilstprofissao">
+                <datalist id="ilstprofissao">
+                    <option value="">Professor</option>
+                    <option value="">Administrador</option>
+                    <option value="">Policial</option>
+                    <option value="">Advogado</option>
+                    <option value="">Juiz</option>
+                </datalist>
+            </p>
+                
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar tudo">
+            </p>
+
+
+ 
+    </form>
+</body>
+</html>
